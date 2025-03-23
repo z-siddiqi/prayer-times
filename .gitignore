@@ -10,3 +10,12 @@ node_modules
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# infrastructure
+infrastructure/.terraform/
+infrastructure/*.tfstate
+infrastructure/*.tfstate.*
+infrastructure/.terraform.lock.hcl
+infrastructure/tofu.tfvars
+infrastructure/function-source.zip
+infrastructure/*.tofu.backup
